@@ -6,7 +6,7 @@ Events:Subscribe('Partition:Loaded', function(partition)
          local vignetteData = VignetteComponentData(instance)
 
          vignetteData:MakeWritable()
-         vignetteData.enable = true;
+         vignetteData.enable = false;
        end
 
     end
